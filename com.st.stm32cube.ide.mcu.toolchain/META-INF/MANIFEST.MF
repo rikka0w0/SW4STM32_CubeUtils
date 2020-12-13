@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: STM32CubeIDE MCU Toolchain Manager
+Bundle-SymbolicName: com.st.stm32cube.ide.mcu.toolchain;singleton:=true
+Bundle-Version: 1.0.0.rikka_mod
+Bundle-Activator: com.st.stm32cube.ide.mcu.toolchain.Activator
+Bundle-Vendor: rikka0w0
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: com.st.stm32cube.ide.mcu.toolchain
+Bundle-ActivationPolicy: lazy
+Export-Package: com.st.stm32cube.ide.mcu.toolchain
+Import-Package: org.eclipse.cdt.managedbuilder.core

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: STM32CubeIDE MCU External Tools
+Bundle-SymbolicName: com.st.stm32cube.ide.mcu.externaltools;singleton:=true
+Bundle-Version: 1.0.0.rikka_mod
+Bundle-Vendor: rikka0w0
+Automatic-Module-Name: com.st.stm32cube.ide.mcu.externaltools
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: com.st.stm32cube.ide.mcu.externaltools
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: com.st.stm32cube.ide.mcu.externaltools.MCUExternalToolsPlugin
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.core.variables, com.st.stm32cube.common.logger
