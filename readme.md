@@ -16,7 +16,7 @@ com.st.stm32cube.ide.mcu.stackanalyzer_1.1.0.201910081157.jar
 com.st.stm32cube.ide.mcu.toolchain.utils_1.0.0.201904021149.jar
 ```
 3. Use Winrar or 7zip to open `com.st.stm32cube.ide.mcu.stackanalyzer_1.1.0.201910081157.jar`, extract `META-INF\MANIFEST.MF`, delete `com.st.stm32cube.ide.mcu.debug,` and then overwrite the file in the jar with the modified one.
-4. Launch Eclipse, you should be able to open "" and "".
+4. Launch Eclipse, you should be able to open the "Build Analyzer" and the "Static Stack Analyzer" from the "View" menu.
 5. If not working, try "eclipse -clean".
 6. Append ` -fstack-usage` flag to `C/C++ Build -> Settings -> Tool Settings -> MCU GCC Compiler -> Miscellaneous -> Other flags` (__per project setting__)
 7. Change `C/C++ Build -> Settings -> Tool Settings -> MCU GCC LINKER -> General -> Generated Map (-WI, -Map=)` to `${ProjName}.map` (__per project setting__)
